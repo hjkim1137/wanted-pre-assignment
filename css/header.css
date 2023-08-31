@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f9fafc;
+}
+
+/* .main {
+  display: flex;
+} */
+
+.header {
+  background-color: #ffffff;
+  padding-left: 38px;
+  height: 90px;
+  border-bottom: 1px solid #ebebeb;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: #1d1f24;
+  display: flex;
+}
+
+.logoEl {
+  background-color: #ff565c;
+  width: 4px;
+  height: 4px;
+  margin-top: auto;
+}
+
+.nav {
+  display: flex;
+  color: #ebebeb;
+}
+
+.nav > div {
+  margin-left: 30px;
+}
+
+.menuBar {
+  margin-left: auto;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menuBar > div {
+  width: 27px;
+  height: 2px;
+  background-color: #1d1f24;
+  margin-bottom: 5px;
+}
